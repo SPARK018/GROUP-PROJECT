@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spotify Information</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        @import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+        body {
+            background-image: linear-gradient(to right, #ffffff, #ffffff);
+            font-family: 'Poppins', sans-serif;
+            border: 5px solid #ffffff;
+            padding: 20px;
+            margin: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            color: #1DB954; /* Spotify's brand color */
+            font-family: 'Lobster', cursive;
+            text-decoration: underline;
+            margin: 40px 20px 20px 20px;
+            font-size: 100PX;
+            text-align: center;
+            
+        }
+        h2 {
+            color: #333;
+            font-family: 'Lobster', cursive;
+            text-decoration: underline;
+            margin: 20px;
+            text-align: center;
+            font-size: 40px;
+        }
+        h3 {
+            text-align: center;
+        }
+        h4{
+            text-align: center;
+        }
+        p, li {
+            color: #666;
+            font-family: 'Roboto', sans-serif;
+            margin: 20px 20px 40px 20px;
+            text-align: center;
+        }
+        img {
+            margin: 20px;
+        }
+        img:hover {
+            transform: rotate(360deg);
+            transition: 1s; 
+        }
+
+        #logo{
+            justify-content: center;
+            text-align: center;
+            display: flex;
+            border: solid;
+            
+
+        }
+        #img1{
+            margin-left: 250px;
+            margin-top: 50px;
+        }
+        #img2{
+            margin-right: 250px;
+            margin-top: 50px;
+        }
+        #img3{
+            display: flex;
+            margin-left: 380px;
+            justify-content: space-between;
+            text-align: center;
+
+        }
+        .my-heading{
+            float: right;
+        }
+        #center{
+            text-align: center;
+            justify-content: center;
+        }
+        button {
+            background-color: #000000;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 20px;
+            text-align: center;
+        }
+        button:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+        #button{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            border: #000000 solid;
+        }
+        #modal {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #modal-content {
+            position: relative;
+            background-color: white;
+            width: 300px;
+            height: 380px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        #close-button {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            font-size: 20px;
+            color: #1DB954;
+            cursor: pointer;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="'center">
+        <div id = "logo">
+            <img id ="img2" src="https://cdn.pixabay.com/photo/2016/04/28/23/53/spotify-1360002_640.jpg" alt="Spotify Logo" width="150" height="100"> <!-- Adjust width and height as needed -->
+            <h1 class="my-heading">SPOTIFY</h1>
+            <img id ="img1" src="https://cdn.pixabay.com/photo/2016/04/28/23/53/spotify-1360002_640.jpg" alt="Spotify Logo" width="150" height="100"> <!-- Adjust width and height as needed -->
+        </div>
+
+    
+        
+        <h2><i class="fas fa-globe"></i> Country of Origin</h2>
+        <h4>- Spotify is a Swedish audio streaming and media services provider founded on 23 April 2006 by Daniel Ek and Martin Lorentzon. They developed the platform as a response to the growing piracy problem the music industry was facing2 Spotify launched in Europe in 2008 and in the US in 2011, after signing contracts with major record labels13 Spotify is now one of the largest music streaming service providers, with over 590 million monthly active users, including 226 million paying subscribers,as of September 2023  .</h4>
+    
+        <h2><i class="fas fa-users"></i> Founders</h2>
+        <h4>-Spotify was founded by Daniel Ek and Martin Lorentzon in 2006.</h4>
+    
+        <h2><i class="fas fa-music"></i> Uses and Features</h2>
+            <h4>-Spotify is a digital music, podcast, and video streaming service that gives you access to millions of songs and other content from artists all over the world. It has features like Discover Weekly, Spotify Connect, and more
+             Spotify has several features that enhance the music listening experience. Here are some of them </h4>
+            <h3> 1 Crossfade & Transitions</h3>
+            <h3> 2 Audio Customization</h3>
+            <h3> 3 Collaborative and Blended Playlists</h3>
+            <h3>4 Playlist Folders</h3>
+            <h3>5 Music Discovery</h3>
+            <h3>5 Private Listening and Private Playlists</h3>
+            <h3>6 Playlist Recommendations</h3>
+            <h3>7 Sleep Timer.</h3>
+    
+        <h2><i class="fas fa-dollar-sign"></i> Subscription</h2>
+        <h4>Spotify Premium offers ad-free listening, offline downloads, and on-demand playback starting 119 rupees per months.</h4>
+    
+        <h2><i class="fas fa-chart-line"></i> Uses Over the Years</h2>
+        <h4>-Over the years, Spotify has grown to become one of the leading music streaming platforms worldwide it is now one the most loved music website across the globe
+            having the most no downloads it stoods on the top.</h4>
+    
+        <h2><i class="fas fa-download"></i> Total Number of Downloads</h2>
+        <h4>-As of 2021, Spotify has been downloaded over 500 million times on Android devices alone and counting.</h4>
+    
+        <h2><i class="fas fa-money-bill-wave"></i> Total Revenue</h2>
+        <h4>As of 2021, Spotify's revenue is estimated to be around $9 billion.</h4>
+    </div>
+    <img id ="img3" src="./64577c371709f284b9e801b0_How many users of Spotify are there.jpg" alt="Spotify Logo" width="600" height="500"> <!-- Adjust width and height as needed --> </div>
+    <div id ="button">
+        <h4> </h4>
+        <button id="play-button"> &#128073; Play Spotify Playlist  &#128072;</button>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      // Replace the playlist ID with your own
+      var playlistID = "37i9dQZF1DXcBWIGoYBM5M";
+      var playlistURL = "https://open.spotify.com/embed/playlist/" + playlistID;
+      var modalHTML = '<div id="modal"><div id="modal-content"><span id="close-button">×</span><iframe src="' + playlistURL + '" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>';
+      $("body").append(modalHTML);
+      $("#modal").hide();
+      $("#play-button").click(function() {
+        $("#modal").show();
+      });
+      $("#close-button").click(function() {
+        $("#modal").hide();
+      });
+    </script>
+    </div>
+    
+    
+</body>
+</html>
+</style>
+</head>
+<body>
+
+           
